@@ -29,7 +29,7 @@ int main(void)
 	}
 	else
 	{
-		printf("undefined\n");
+		printf("Last digit of %d is %d, and is 0\n", n, a);
 	}
 	return (0);
 }
