@@ -19,7 +19,7 @@ int main(void)
 			factor++;
 		}
 	}
-	if (num > 1)
+	if (num > 2)
 	{
 		printf("Largest prime factor is %ld\n", num);
 	}
