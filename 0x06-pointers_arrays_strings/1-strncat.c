@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcat - a fxn that concatenates two strings
+ * _strncat - a fxn that concatenates two strings
  * @src: the string to be added to the first string
  * @dest: the first string
- * @n:bytes from string src
+ * @n:the number of characters to be apppended.
  * Return:dest(the concatenated string)
  */
 char *_strncat(char *dest, char *src, int n)
@@ -16,10 +16,9 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		/*Concatenate the string src to string dest*/
 	}
-	for (index2 = 0; index2 < n && src[index2] != '\0'; index2++)
+	for (index2 = 0; src[index2] && index2 < n; index2++)
 	{
-		dest[index1] = src[index2];
-		index1++;
+		dest[index1++] = src[index2];
 	}
 	return (dest);
 }
