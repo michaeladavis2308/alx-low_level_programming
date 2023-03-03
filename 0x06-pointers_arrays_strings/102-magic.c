@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- *  main - prints out the address of n
- *  Return:0
- */
+
 int main(void)
 {
 	int n;
