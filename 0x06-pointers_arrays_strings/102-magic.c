@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/**
+ * main - prints out the address of n
+ */
 int main(void)
 {
 	int n;
