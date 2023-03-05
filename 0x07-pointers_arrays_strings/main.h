@@ -16,3 +16,4 @@ void print_diagsums(int *a, int size);
 
 int _putchar(char c);
 
+int _strlen(char *s);
