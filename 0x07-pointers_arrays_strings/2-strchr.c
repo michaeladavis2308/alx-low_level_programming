@@ -3,7 +3,7 @@
  * _strchr-prints the first occurence of the specified x'ter in a string
  * @s:the string being searched
  * @c:the character being located
- * Return:s/ '\0'
+ * Return:s/NULL
  */
 char *_strchr(char *s, char c)
 {
@@ -15,5 +15,5 @@ char *_strchr(char *s, char c)
 			s++;
 		}
 	}
-	return ('\0');
+	return ("\0");
 }
