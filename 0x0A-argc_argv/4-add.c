@@ -7,7 +7,7 @@
  * @argv: a pointer to an array of int
  * Return:1 / 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int i, add = 0;
 
@@ -24,6 +24,6 @@ int main(int argc, char *argv[])
 		}
 		add = add + atoi(argv[i]);
 	}
-	printf("%d\n", add);
+	printf("%i\n", add);
 	return (0);
 }
