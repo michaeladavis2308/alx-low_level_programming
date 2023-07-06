@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+#define LITTLE_ENDIAN 1
+#define BIG_ENDIAN 0
 /*header files used for the tasks */
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
